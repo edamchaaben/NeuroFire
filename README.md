@@ -1,5 +1,10 @@
 # 🔥 NeuroFire: AI Autonomous Firefighter Drone
 
+**Two Projects in One:**
+
+1. 🎮 **The Game**: A fully playable Pygame simulation where an AI drone extinguishes fires.
+2. 🔬 **The Research Notebook**: A comparative study analyzing **DQN vs PPO vs A2C** algorithms.
+
 An AI-powered firefighting drone simulation trained using **Double Deep Q-Network (Double DQN)** reinforcement learning. The drone learns to navigate a forest environment, detect fires, extinguish them using water, and refill at a lake.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
