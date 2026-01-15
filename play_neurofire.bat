@@ -1,0 +1,13 @@
+@echo off
+echo Starting NeuroFire Debug Mode...
+echo Checking Python...
+"C:\ProgramData\anaconda3.1\python.exe" --version
+echo Installing requirements...
+"C:\ProgramData\anaconda3.1\python.exe" -m pip install -r requirements.txt > install_log.txt 2>&1
+echo Starting Simulation...
+"C:\ProgramData\anaconda3.1\python.exe" main.py
+echo.
+echo ========================================
+echo If the game did not open, look for 'crash_log.txt'
+echo ========================================
+pause

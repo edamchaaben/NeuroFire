@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Logs  
+*.log
+*_log.txt
+crash_log.txt
+debug_log.txt
+install_log.txt
+run_output.txt
+
+# Test files
+test_*.py
+run_and_capture.bat
+PPO_BUG_FIX.py
+
+# Training outputs (uncomment if you don't want to share models)
+# model/
+# *.pth
+# *.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual environments
+venv/
+env/
+ENV/
